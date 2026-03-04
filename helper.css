@@ -1,0 +1,30 @@
+
+a, a:link, a:visited{
+    text-decoration: none;
+}
+
+
+
+ul, ol{
+    list-style: none;
+}
+
+
+
+.heading-pri{
+    font-size: 32px;
+    color: #010101;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 0 0 20px 0;
+}
+
+.heading-sec{
+    font-size: 20px;
+    color: #313841;
+    margin: 0 0 20px 0;
+    font-weight: 400;
+}
+
+
+

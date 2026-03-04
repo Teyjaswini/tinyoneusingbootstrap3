@@ -1,0 +1,258 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+
+.header {
+    background-color: #fcdb00;
+    padding: 60px 0 103px;
+}
+
+.header .navbar-brand {
+    padding: 0;
+}
+
+
+.header .navbar-default {
+    background: none;
+    border: none;
+    box-shadow: none;
+    margin-bottom: 60px;
+}
+
+.header .navbar-default .navbar-nav a {
+    color: #010101;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-left: 40px;
+}
+
+
+.header .inspire h2 {
+    padding-top: 65px;
+}
+
+
+.header .inspire p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.header .header-list li {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.header .header-list a i {
+    font-size: 42px;
+    color: #010101;
+}
+
+.header .ipad-img {
+    margin-left: 14%;
+}
+
+
+/* ...............................................HEADING SECTION END.............................. */
+
+
+
+
+.features-section {
+    padding: 115px 0 75px;
+
+}
+
+.features-section .features-info {
+    margin-bottom: 90px;
+}
+
+
+
+.features-section .features-info h2 {
+    margin-bottom: 15px;
+}
+
+.features-section .features-thumbnail {
+    margin-bottom: 90px;
+}
+
+
+.features-section .features-thumbnail i {
+    font-size: 50px;
+    color: #010101;
+}
+
+.features-section .thumbnail-info h3 {
+    font-size: 22px;
+    color: #010101;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 0 0 15px 0;
+}
+
+.features-section .thumbnail-info p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #898989;
+}
+
+
+/*................. FEATURE SECTION END.............. */
+
+
+
+
+.footer {
+    padding: 95px 0 135px;
+    background-color: #010101;
+}
+
+.footer .fto-heading {
+    margin-bottom: 40px;
+}
+
+.footer .fto-heading h2 {
+    color: #fcdb00;
+}
+
+.footer .fto-heading h3 {
+    color: #898989;
+}
+
+.footer .contact-form {
+    margin-bottom: 80px;
+}
+
+.footer .contact-form .w-100 {
+    width: 100%;
+}
+
+.footer .contact-form .form-group {
+    margin: 0;
+}
+
+.footer .contact-form .submitBtn {
+    background-color: #fcdb00;
+    color: #010101;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    transition: all 0.7s linear;
+}
+
+
+.footer .contact-form .submitBtn:hover {
+    color: #fcdb00;
+    background-color: transparent;
+    border: 1px solid #fcdb00;
+}
+
+.footer .contact-form .submitBtn:focus {
+    outline: none;
+}
+
+.footer .social-icon {
+    margin-bottom: 130px;
+}
+
+.footer .social-icon li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+
+.footer .social-icon a i {
+    font-size: 42px;
+    color: #fcdb00;
+}
+
+.footer .footer-address li,
+.footer .footer-address li a {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+}
+
+
+
+
+
+@media all and (max-width: 768px) {
+    .header .navbar-default .navbar-toggle {
+        background-color: transparent;
+        border: none;
+    }
+
+    .header .navbar-default .navbar-collapse {
+        border: none;
+    }
+
+    .header .navbar-default {
+        margin-bottom: 20px;
+    }
+
+    .header .inspire {
+        text-align: center;
+    }
+
+    .header .inspire h2 {
+        padding: 0;
+    }
+
+    .header .ipad-img {
+        margin: 10% 0 0;
+    }
+
+    .header .ipad-img img {
+        margin: 0 auto;
+    }
+
+    /* .....................header section end................ */
+
+    .features-section {
+        padding: 40px 0 0;
+    }
+
+    .features-section .features-thumbnail {
+        margin-bottom: 40px;
+    }
+
+    .footer {
+        padding: 40px 0;
+    }
+
+    .footer .contact-form {
+        margin-bottom: 20px;
+    }
+
+    .footer .contact-form .form-group {
+        margin-bottom: 20px;
+    }
+
+    .footer .social-icon {
+        margin-bottom: 50px;
+    }
+
+    .footer-address {
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width:992px) {
+    .features-section {
+        padding: 50px 0;
+    }
+
+    .footer-address {
+        text-align: center;
+    }
+}
